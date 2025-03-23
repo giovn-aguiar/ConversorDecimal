@@ -1,0 +1,51 @@
+
+<!-- Criado por Marise Miranda | 2017.1 -->
+<!-- Adaptado por Matheus Matos | 2025.1 -->
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GG Machine</title>
+</head>
+
+<body bgcolor="#ffad61">
+    <center>
+        <div class="imgaranha">
+            <img class="imagem" src="img/Haunted_Spider_and_Web_Clipart.png" alt="">
+        </div>
+            <h1 class="titulo">GG Machine</h1>
+
+        <h3>Digite um número decimal:</h3>
+        <input id="numeroSolicitado" type="text" placeholder="Ex: 42">
+        <br><br>
+
+        <button onclick="converter()">Converter</button>
+
+        <h3>Resultados:</h3>
+        <p>Octal:
+        <div id="demo2"></div>
+        </p>
+        <p>Hexadecimal:
+        <div id="demo3"></div>
+        </p>
+        <p>Binário:
+        <div id="demo4"></div>
+        </p>
+    </center>
+
+    <script>
+        function converter() {
+            var decimal = Number(numeroSolicitado.value);
+
+            demo2.innerHTML = `<b>${decimal.toString(8).toUpperCase()}</b>`
+            demo3.innerHTML = `<b>${decimal.toString(16).toUpperCase()}</b>`
+            demo4.innerHTML = `<b>${decimal.toString(2).toUpperCase()}</b>`
+        }
+    </script>
+</body>
+
+</html>

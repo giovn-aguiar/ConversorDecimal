@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    font-family: Creepster;
+    font-size: 7rem;
+    color: #538b44;
+}
+
+h3{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#numeroSolicitado{
+    background-color: #84a59e;
+    border-radius: 1rem;
+    height: 2.2rem;
+    text-align: center;
+}
+
+button{
+    border-radius: 1rem;
+    background-color: #84a59e;
+    transition: 0.5s;
+    height: 2.5rem;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(1, 43, 32, 0.671);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #538b44;
+    box-shadow: 4px 4px 1px rgba(1, 43, 32, 0.671);
+}
+
+.imagem{
+    width: 300px;
+}
+
+.imgaranha{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -15rem;
+}
+
